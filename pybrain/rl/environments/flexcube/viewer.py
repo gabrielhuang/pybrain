@@ -30,7 +30,7 @@ from OpenGL.GLUT import * #@UnusedWildImport
 from OpenGL.GL import * #@UnusedWildImport
 from OpenGL.GLE import * #@UnusedWildImport
 from OpenGL.GLU import * #@UnusedWildImport
-from . import objects3d
+from pybrain.rl.environments.flexcube import objects3d
 from time import sleep
 from scipy import ones, array
 from pybrain.tools.networking.udpconnection import UDPClient
